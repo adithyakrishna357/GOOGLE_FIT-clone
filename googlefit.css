@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: white;
+}
+.header{
+    width: 100%;
+    height: 64px;
+    background: #fff;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%);
+}
+.googlelogo{
+    width: 105px;
+    height: 24px;
+    margin-left: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.googleplay{
+    width: 140px;
+    height: 44px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+.applestore{
+    cursor: pointer;
+    width: 135px;
+    height: 42px;
+    margin-right: 17px;
+    margin-top: 1px;
+}
+.mainbody{
+    width: 100%;
+    height: 768.7px;
+}
+.whitefirst{
+    width: 1200px;
+    height: 769px;
+    margin-left: 119.600px;
+    margin-right: 119.600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.googlelove{
+    width: 190px;
+    height: 139.775px;
+    margin-top: 181px;
+    margin-left: 525px;
+}
+.coach{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #29292c;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.googleplay2{
+    width: 140px;
+    height: 44px;
+    margin-left: 467px;
+    margin-top: 50px;
+}
+.applestore2{
+    width: 134px;
+    height: 41px;
+    margin-left: 28px;
+    margin-bottom: 1px;
+}
+#googlelogo{
+    width: 200px;
+    height: 60px;
+}
+#store{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-top: -52px;
+    padding-right: 8px;
+}
+.downarrow{
+    width: 46px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 60%;
+}
+.down{
+    text-align: center;
+    margin-left: 33px;
+    margin-top: 113px;
+}
+.downarrow:hover{
+    box-shadow: 0 2px 9px 0 #a9a9a9;
+}
+.bluepart{
+    width: 100%;
+    height: 920px;
+    background: #4285f4;
+}
+.activitygoal{
+    text-align: center;
+    color: #fff;
+}
+.goals{
+    font-size: 45px;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    padding-top: 100px;
+}
+.being{
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+    line-height: 30px;
+}
+#who{
+    width: 163px;
+    height: 50px;
+    padding-top: 35px;
+}
+.who{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bluelast{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+#animationimg{
+    width: 50%;
+    height: 400px;
+    padding-top: 44px;
+}
+#bluelast2{
+    width: 50%;
+    height: 400px;
+    padding-top: 63px;
+    padding-left: 20px;
+}
+.animation{
+    padding-left: 349px;
+    padding-top: 1px;
+}
+.point{
+    width: 165.6px;
+    height: 55px;
+    border-top: 5px solid #06bf9a;
+}
+#h3{
+    font-size: 30px;
+    color: #fff;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    padding-top: 21px;
+}
+.para{
+    padding-top: 10px;
+    color: #fff;
+}
+#para{
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    line-height: 27px;
+}
+#who1{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+.middleportion{
+    width: 100%;
+    height: 1780px;
+    background: #fff;
+}
+.middle1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.text{
+    width: 508.33px;
+    height: 200px;
+    margin-left: 140px;
+    margin-top: 264px;
+}
+.fits{
+    font-size: 33px;
+    font-weight: 400;
+    color: #202124f0;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+}
+.achieve{
+    font-size: 1.125rem;
+    color: #202124ed;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    line-height: 30px;
+}
+#mobilevideo{
+    width: 620px;
+    height: 560px;
+    margin-left: 121px;
+    margin-top: 80px;
+}
+#mobile{
+    width: 270px;
+    height: 560px;
+    position: absolute;
+    z-index: 0;
+    
+}
+.mobilevi{
+    width: 253px;
+    height: 500.61px;
+    margin-top: -485px;
+    margin-left: 8px;
+    position: absolute;
+    z-index: -1;
+}
+#mobilehealth{
+    margin-top: -25px;
+    height: 501px;
+    width: 253px;
+}
+.watch{
+    margin-left: 253px;
+    margin-top: 340px;
+    position: absolute;
+    z-index: 1;
+}
+.middle2{
+    width: 100%;
+    height: 560px;
+    display: flex;
+}
+#mobilewatch{
+    width: 610px;
+    height: 560px;
+    margin-left: 272px;
+}
+.watch2{
+    width: 219px;
+    height: 232.95px;
+    margin-top: 420px;
+    position: absolute;
+    z-index: 0;
+}
+#watch2video{
+    margin-top: -215px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: -1;
+}
+.watchvi2{
+    width: 187px;
+    height: 187px;
+    border-radius: 50%;
+}
+.mobileimage{
+    width: 270px;
+    height: 560px;
+    margin-left: 208px;
+    margin-top: 80px;
+}
+.text2{
+    width: 508.33px;
+    height: 230px;
+    margin-top: 245px;
+}
+#how{
+    font-size: 2rem;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    color: #202124;
+    font-weight: 400;
+}
+#from{
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    margin-top: 25px;
+}
+.middlelast{
+    width: 1280px;
+    height: 312px;
+    margin-top: 200px;
+    margin-left: 120px;
+    text-align: center;
+}
+#link{
+    text-decoration: none;
+    font-weight: 400;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+    color: #1a73e8;
+    font-size: 140%;
+}
+.icons{
+    width: 819px;
+    height: 180px;
+    display: flex;
+    margin-left: 248px;
+    margin-top: 50px;
+}
+#ul{
+    display: flex;
+    list-style-type: none;
+}
+.imgul{
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+.li{
+    width: 56px;
+    height: 56px;
+}
+.li1{
+    width: 56px;
+    height: 56px;
+    margin-left: 34px;
+}
+.li2{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li3{
+    width: 56px;
+    height: 56px;
+    margin-left: 35px;
+}
+.li4{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li5{
+    width: 56px;
+    height: 56px;
+    margin-left: 34px;
+}
+.li6{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li7{
+    width: 56px;
+    height: 56px;
+    margin-left: 35px;
+}
+.li8{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li9{
+    width: 56px;
+    height: 56px;
+}
+#ul2{
+    display: flex;
+    list-style-type: none;
+    margin-left: -784px;
+    margin-top: 89px;
+}
+.li10{
+    width: 56px;
+    height: 56px;
+    margin-left: 34px;
+}
+.li11{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li12{
+    width: 56px;
+    height: 56px;
+    margin-left: 35px;
+}
+.li13{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li14{
+    width: 56px;
+    height: 56px;
+    margin-left: 34px;
+}
+.li15{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.li16{
+    width: 56px;
+    height: 56px;
+    margin-left: 35px;
+}
+.li17{
+    width: 56px;
+    height: 56px;
+    margin-left: 35.5px;
+}
+.yellowportion{
+    width: 100%;
+    height: 490px;
+    background: #ffbd01;
+}
+.text3{
+    width: 610px;
+    height: 206px;
+    margin-left: 770px;
+    padding-top: 145px;
+    
+}
+.getfit{
+    width: 491.66px;
+    height: 104px;
+}
+#ios{
+    font-size: 2.75rem;
+    font-weight: 400;
+    color: #202124;
+    font-family: Google Sans,Helvetica,Arial,sans-serif;
+}
+.googleplay3{
+    width: 307px;
+    height: 48px;
+    margin-top: 52px;
+    margin-left: -1px;
+    display: flex;
+}
+#gplay{
+    width: 140px;
+    height: 44px;
+}
+#appstore3{
+    width: 135px;
+    height: 42px;
+    margin-top: 1px;
+    margin-left: 16px;
+}
+.footer{
+    width: 100%;
+    height: 225.88px;
+    background: #fff;
+}
+.hardware{
+    font-size: 0.75rem;
+    color: #202124;
+    font-family:sans-serif;
+    margin-left: 88px;
+    margin-top: -10px;
+}
+.one{
+    width: 5px;
+    font-size: 0.50rem;
+    margin-left: 80px;
+}
+#oneo{
+    width: 85px;
+    padding-top: 38px;
+}
+hr{
+    width: 90%;
+    background-color:#dadcd09e;
+    opacity: 0.3;
+    margin-left: 82px;
+}
+#terms{
+    width: 1359.2px;
+    height: 48px;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 38px;
+}
+#lu{
+    list-style: none;
+    display: flex;
+    font-family: sans-serif;
+    margin-left: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.privacy{
+    width: 1038.4px;
+    height: 48px;
+    padding-top: 7px;
+}
+.l2{
+    margin-left: 31px;
+    cursor: pointer;
+    color: gray;
+}
+.l2:hover{
+    color: black    ;
+}
+a{
+    text-decoration: none;
+}
